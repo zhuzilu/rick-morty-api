@@ -12,16 +12,24 @@
 <body>
     <a href="#"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg" alt="Rick and Morty"></a>
     <div class="search__container">
-        <img class="search__icon" src="https://play-lh.googleusercontent.com/fXQVXTma1ENwAFjsxJ4IT6GntBr3RxWP3HMSLbNdvycl-0tscOQEeJIEAmehcNOt5hCp" alt="">
+        <audio id="rick-burp">
+            <source src="/www/assets/rick-burp.mp3" type="audio/mp3">
+        </audio>
+        <button class="rick-icon"><img class="search__icon" src="https://play-lh.googleusercontent.com/fXQVXTma1ENwAFjsxJ4IT6GntBr3RxWP3HMSLbNdvycl-0tscOQEeJIEAmehcNOt5hCp" alt=""></button>
         <input type="search" id="search" placeholder="Search" data-search>
-        <button type="submit">🔍</button>
+        <button type="submit" id="submit">🔍</button>
     </div>
     <main id="main"></main>
+    <div class="pages">
+        <a href="#" id="pages__link__previous">«</a>
+        <a href="#" id="pages__link__next">»</a>
+    </div>
     <footer>
         <p>Web app developed by <a href="http://github.com/zhuzilu">Lucía López</a></p>
         <a href="https://github.com/zhuzilu"><i class="uil uil-github"></i></a>
         <a href="https://www.linkedin.com/in/lucialopezzas/"><i class="uil uil-linkedin"></i></a>
     </footer>
+
     <script src="js/src.js"></script>
 </body>
 </html>
