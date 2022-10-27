@@ -131,6 +131,9 @@ footer p {
     font-size: 3.5rem;
     color:var(--acid-green);
 }
+a{
+    color:var(--acid-green);
+}
 a:visited{
     color:var(--acid-green);
 }
