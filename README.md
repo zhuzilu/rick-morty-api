@@ -1,5 +1,5 @@
 # RICK & MORTY API
-![](https://github.com/zhuzilu/rick-morty-api/raw/www/assets/rickmorty.PNG)
+![](https://github.com/zhuzilu/rick-morty-api/blob/main/www/assets/rickmorty.PNG?raw=true)
 
 ## Features
 - Responsive design
